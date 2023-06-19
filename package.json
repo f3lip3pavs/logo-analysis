@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "testando_deploy_vercel",
   "version": "1.0.0",
   "description": "",
@@ -12,5 +13,20 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.2"
+=======
+  "name": "test-deploy",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "13.4.6",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+>>>>>>> 393fcdd (build)
   }
 }
